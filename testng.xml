@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.qdpm.operations.utility.Listeners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/sarka/IdeaProjects/AutomationFramework/src/test/java/com/qdpm/testcases/Rough.java">
+        <classes>
+            <class name="com.qdpm.testcases.Rough">
+                <methods>
+                    <include name="TaskCreationTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
